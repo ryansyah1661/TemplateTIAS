@@ -49,7 +49,7 @@
                             <div class="mb-4">
                                 <label>Deskripsi</label> 
                                 <Editor 
-                                    api-key="no-api-key" 
+                                    api-key="6f5fhxug9qcdj871al2a562dk0w995npeldb4pkqk0rtff0e" 
                                     v-model="form.description" 
                                     :init="{
                                         menubar: false,

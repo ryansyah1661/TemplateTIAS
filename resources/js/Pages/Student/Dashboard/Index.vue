@@ -1,6 +1,6 @@
 .<template>
     <Head>
-        <title>Dashboard Siswa - Aplikasi Ujian Online</title>
+        <title>Dashboard</title>
     </Head>
     <div class="row">
         <div class="col-md-12">
@@ -26,10 +26,17 @@
                                     <td class="fw-bold">Kelas</td>
                                     <td>{{ data.exam_group.student.classroom.title }}</td>
                                 </tr>
+                                
                                 <tr>
-                                    <td class="fw-bold">Sesi</td>
-                                    <td>{{ data.exam_group.exam_session.title }}</td>
+                                    <td class="fw-bold">Dosen</td>
+                                    <td>{{ data.exam_group.exam.lecturer.title }}</td>
                                 </tr>
+
+                                <tr>
+                                    <td class="fw-bold">Durasi</td>
+                                    <td>{{ data.exam_group.exam.duration.title }}</td>
+                                </tr>
+
                                 <tr>
                                     <td class="fw-bold">Mulai</td>
                                     <td>{{ data.exam_group.exam_session.start_time }}</td>
